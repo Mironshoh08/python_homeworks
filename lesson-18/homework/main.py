@@ -45,7 +45,7 @@ else:
 
 # ---
 
-# filt = pd.to_numeric(df['score'].between(5,10)) & (pd.to_numeric(df['viewcount'] > 10000))
+# filt = pd.to_numeric(df['score'].between(5,10)) | (pd.to_numeric(df['viewcount'] > 10000))
 # print(df[filt])
 
 # ---
